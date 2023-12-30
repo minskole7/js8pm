@@ -152,8 +152,6 @@ for(let i = 0 ; i < sum.length ; i++){
     //        33    +  33   =====> 66 
 }
 console.log(total)
-
-
 sum = [11,22,33]
 let q5 = sum.reduce(function(acc,el,index,arr){
         return acc + el
